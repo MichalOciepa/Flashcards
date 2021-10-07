@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiszki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="card">
+            <div id="front">Gotowy na fiszki?</div>
+            <div id="back">Zaczynajmy!</div>
+        </div>
+    </div>
+    <button class="btn draw" onclick="nextQuestion()">Losuj !</button>
+    <div class="nav">
+        <input type="text" id="add-question" value="" required="required" placeholder="wpisz pytanie"
+            onfocus="this.value=''">
+        <input type="text" id="add-answer" value="" required="required" placeholder="wpisz odpowiedź"
+            onfocus="this.value=''">
+        <input class="btn" type="submit" value="+" onclick="addQuestion()" style="font-weight:bold;" />
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
