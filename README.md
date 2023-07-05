@@ -6,9 +6,6 @@ This is one of my javascript projects. The flashcard method is a proven and effe
 
 The project will be developed. In the future i want to add different categories and saving flashcards on the server.
 
-## Problems
-- problem with vertically centering the text
-
 ## Tech/framework used 🔧
 
 | HTML | JAVASCRIPT | CSS |
